@@ -52,6 +52,7 @@
 		2CE7BCE713897245009784B9 /* Scanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7BCE613897245009784B9 /* Scanner.m */; };
 		2CE7BCEB1389725D009784B9 /* RenderingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7BCEA1389725D009784B9 /* RenderingState.m */; };
 		2CE7BCEF13897294009784B9 /* Selection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7BCEE13897294009784B9 /* Selection.m */; };
+		36B1A36D1A0841E7006D85B4 /* CrackerBarrel.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 36B1A36C1A0841E7006D85B4 /* CrackerBarrel.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,6 +145,7 @@
 		2CE7BCEA1389725D009784B9 /* RenderingState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RenderingState.m; path = PDFKitten/RenderingState.m; sourceTree = SOURCE_ROOT; };
 		2CE7BCED13897293009784B9 /* Selection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Selection.h; path = PDFKitten/Selection.h; sourceTree = SOURCE_ROOT; };
 		2CE7BCEE13897294009784B9 /* Selection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Selection.m; path = PDFKitten/Selection.m; sourceTree = SOURCE_ROOT; };
+		36B1A36C1A0841E7006D85B4 /* CrackerBarrel.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CrackerBarrel.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 		2C0E159C13589B0B004096C7 = {
 			isa = PBXGroup;
 			children = (
+				36B1A36B1A0841DC006D85B4 /* pdf */,
 				2C0E15B113589B0B004096C7 /* PDFKitten */,
 				2C35AD72167E02E000BA5F79 /* PDFKittenTests */,
 				2C0E15AA13589B0B004096C7 /* Frameworks */,
@@ -402,6 +405,14 @@
 			name = Selection;
 			sourceTree = "<group>";
 		};
+		36B1A36B1A0841DC006D85B4 /* pdf */ = {
+			isa = PBXGroup;
+			children = (
+				36B1A36C1A0841E7006D85B4 /* CrackerBarrel.pdf */,
+			);
+			name = pdf;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -439,7 +450,7 @@
 			name = PDFKittenTests;
 			productName = PDFKittenTests;
 			productReference = 2C35AD6E167E02E000BA5F79 /* PDFKittenTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -474,6 +485,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CDC3F80138977C1006CC6FB /* InfoPlist.strings in Resources */,
+				36B1A36D1A0841E7006D85B4 /* CrackerBarrel.pdf in Resources */,
 				2CDC3F81138977C1006CC6FB /* MainWindow.xib in Resources */,
 				2CA0FCA613EEB1C00028DCCD /* PageViewController.xib in Resources */,
 				2C77F7B41442381300767E6A /* Kurt the Cat.pdf in Resources */,
